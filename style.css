@@ -1,0 +1,797 @@
+body, html {
+    height: 100%;
+	margin: 0%;
+}
+
+h1 {
+	font-family: "Julius Sans One", sans-serif;
+	color: black;
+	text-align: center;
+	font-size: 45px;
+}
+
+h2 {
+	text-align: left;
+	font-family: "Julius Sans One", sans-serif;
+}
+
+.text {
+	font-family: arial, sans-serif;
+	font-size: 20px;
+	text-align: left;
+}  
+
+/*header*/
+
+header {
+	background-color: #7D1E22;
+	position: fixed;
+	height: 70px;
+	width: 100%;
+	box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.33);
+}
+
+#bottoneHome {
+	font-family: "Bungee Shade", cursive;
+	font-size: 40px;
+	color: white ;
+	cursor: pointer;
+	margin-top: -16px;
+	float: left;
+	margin-left: 30px;
+	text-decoration: none;
+}
+	
+#bottoneMenu {
+	height: 100%;
+	cursor: pointer;
+	background: #7D1E22 ;
+	border: none;
+	float: right;
+	margin-right: 30px;
+}
+
+#menuSito {
+	height: 100%;
+	width: 0;
+	background-color: rgba(0, 0, 0, 0.94);
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 6vw;
+	overflow: hidden;
+	position: fixed;
+}
+
+#menuSito ul {
+	list-style-type: none;
+	text-align: center;
+	padding-top: 4%;
+}
+
+#chiudiM {
+	cursor: pointer;
+	font-family: sans-serif;
+	text-align: center;
+	font-size:  100%;
+	float: right;
+	padding-top: 2%;
+	padding-right: 3%;
+	color: white;
+	border: none;
+	background-color: rgba(0, 0, 0, 0);
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+/*parallax*/
+
+.parallax {
+	margin: 0px;
+	font-family: "Julius Sans One", sans-serif;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center bottom;
+	background-size: cover;
+	text-align: center;
+}
+
+#uno {
+	background-image : url("sedili.jpg");
+	height : 100%;
+}
+
+.home {
+    text-align: center;
+	padding-top: 8%;
+	font-family: 'Bungee Shade', cursive;
+	font-size: 13vw;
+	margin: 0%;
+	color: white ;
+}
+
+#due {
+  padding-bottom: 3%;
+}
+
+#due img {
+	width: 90%;
+}
+
+.testomenu {
+	margin-top: 0.5%;
+	margin-bottom: 2%;
+	font-size: 50px;
+}
+
+.pulsante {
+	cursor: pointer;
+	color: #fff;
+	padding: 15px;
+	border: solid #4C1113;
+	background: #7D1E22;
+	width: 100px;
+	margin: 0 auto;
+}
+
+.parallax a {
+	text-decoration: none;
+	color: white;
+	font:  25px sans-serif;
+	text-align: center;
+}
+
+#tre {
+  background-image : url("pop.jpg");
+  height : 100%;
+}
+
+#quattro {
+	padding-bottom: 3%;
+}
+
+#quattro img {
+	width: 90%;
+}
+
+#cinque {
+  background-image : url("biglietti.jpg");
+  height : 100%;
+}
+
+#sei {
+	padding-bottom: 3%;
+}
+
+#sei img {
+	width: 90%;
+}
+
+#sei .testomenu {
+	margin-top: 2%;
+}
+
+#sette {
+  background-image : url("sala.jpg");
+  height : 100%;
+}
+
+#otto {
+	padding-bottom: 3%;
+}
+
+#otto p {
+	margin-top: 2%;
+}
+
+#otto .testomenu {
+	margin-top: 3%;
+}
+
+/*div pagina*/
+
+.pagina {
+	margin-top: 120px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 5%;
+	text-align: center;
+	min-height: 100%;
+}
+
+/* suggeritore */
+
+.imgEmozioni {
+	width: 85%;
+}
+
+#x {
+	width: 8%;
+}
+
+#emozioni button {
+	text-align: center; 
+	cursor: pointer; 
+	background-color: white;
+	border: none;
+	width: 11%;
+}
+
+#filmSuggerito div {
+	width: 70%; 
+	margin-top: 3%; 
+	margin-left: 20%;
+}
+
+#filmSuggerito img {
+	float: left;
+	width: 37%;
+	padding-right: 1.5%;
+}
+
+#filmSuggerito ul {
+	list-style-type: none;
+	font-family: arial, sans-serif;
+	text-align: left;
+	font-size: 16px;
+}
+
+#filmSuggerito h2 {
+	font-size: 22px;
+}
+
+#filmSuggerito li {
+	margin-top: 1%;
+}
+
+#trailer div {
+	margin-top: 4%;
+	text-align: center;
+	width: 100%;	
+}
+
+.grassetto {
+	font-weight: bold;
+}
+
+/* Gioco */
+
+#table1 {
+	margin-top: 3%;
+	width: 90%;
+	margin-left: 5%;
+}
+
+#td1 {
+	width: 50%;
+	padding-left: 13%;
+}
+
+#td2 {
+	padding-bottom: 2.5%;
+}
+
+#td3 {
+	width: 50%;
+}
+
+.attore {
+	width: 120px;
+	height: 100px;
+}
+
+.divCasella{
+	float: right;
+	width: 100%;
+	height: 100px;
+}
+
+.casella {
+	float:left;
+	width: 120px;
+	height: 100px;
+	text-align:center;
+	border: 1px solid #7D1E22;
+	font-family: arial;
+	font-size: 15px;
+	line-height: 1.6;
+}
+
+.logoFilm {
+	margin-top: 3%;
+}
+
+.pRisultati {
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 600%;
+	margin-top: 15%;
+	width: 100%;
+}
+
+.pRisultati .pulsante {
+	margin: 0 auto;
+	
+}
+
+.pRisultati a {
+	text-decoration: none;
+	text-align: center;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+/* storia */
+
+.imgdx {
+	float: right;
+	margin-left: 3%;
+}
+
+.imgsx {
+	float: left;
+	margin-right: 3%;
+	
+}
+
+.imgS1 {
+	width: 110%;
+}
+
+.imgS2 {
+	width: 100%;
+}
+
+.imgS3 {
+	width: 85%;
+}
+
+.imgS4 {
+	width: 90%;
+}
+
+.h2S {
+	margin-bottom: 0;
+}
+
+.justify {
+	text-align: justify;
+	font-size: 18px;
+	font-family: arial, sans-serif;
+}
+
+.bleft {
+	border-left: solid #7D1E22 5px;
+	padding-left: 1.5%;
+	width: 100%;
+	margin-bottom: 3%;
+}
+
+.bright {
+	border-right: solid #7D1E22 5px;
+	padding-right: 1.5%;
+	width: 100%;
+	margin-bottom: 3%;
+	padding-top: 1%;
+}
+
+/* about */
+
+.biblio {
+	color: #7D1E22;
+	font-family: arial, sans-serif;
+	font-size: 20px;
+}
+
+.left {
+	text-align: left;
+}	
+
+.logocss {
+	border: 0;
+	width:8 8px;
+	height: 31px
+}
+
+/*footer*/
+
+footer {
+	background-color: #7D1E22;
+	height: 70px;
+}
+
+.footerPag {
+	font-family: arial, sans-serif;
+	font-size: 15px;
+	float: right;
+	color: white;
+	margin-right: 20px;
+	margin-top: 25px;
+}
+
+#nome {
+	font-family: "Julius Sans One", sans-serif;
+	font-size: 20px;
+	padding-left: 4px;
+}
+
+@media screen and (max-width: 1200px) {
+	#uno {
+		height : 100%;
+		width: 100%;
+	}
+	
+	.home {
+		padding-top: 20%;
+	}
+
+
+	.testomenu {
+		font-size: 300%;
+		margin-bottom: 5%;
+	}
+
+	.pulsante {
+		font-size:  20px;
+		padding: 15px;
+	}
+	
+	#tre {
+		height : 40%;
+	}
+
+	#quattro img {
+		margin-top: 3%;
+		margin-bottom: 2%;
+		width: 90%;
+	}
+
+	#cinque {
+		height : 40%;
+	}
+
+	#sei img {
+		margin-top: 3%;
+		margin-bottom: 2%;
+		width: 90%;
+	}
+
+	#sette {
+		height : 40%;
+	}
+
+	#otto .testomenu {
+		margin-top: 5%;
+	}
+	
+	h1 {
+		font-size: 270%;
+	}
+	
+	.text {
+		font-size: 130%;
+	}  
+	
+	.biblio {
+		font-size: 130%;
+	}
+	
+	#table1 {
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	#td1 {
+		width: 30%;
+		padding-left: 5%;
+	}
+	
+	.home {
+		padding-top: 150px;
+	}
+}
+
+@media screen and (max-width: 1050px){
+	h1 {
+		font-size: 40px;
+	}
+
+	#filmSuggerito div {
+		margin-top: 5%; 
+		margin-left: 0;
+		width: 100%;
+	}
+	
+	#filmSuggerito h2 {
+		text-align: center;
+		font-size: 150%;
+	}
+
+	#filmSuggerito img {
+		float: none;
+		width: 30%;
+	}
+	
+	#filmSuggerito ul {
+		font-size: 100%;
+	}
+	
+	.home {
+		padding-top: 160px;
+	}
+
+}
+
+@media screen and (max-width: 900px){
+	h1 {
+		font-size: 35px;
+	}
+	
+	h2 {
+		font-size: 23px;
+	}
+	
+	.justify {
+		font-size: 16px;
+	}
+	
+	#td1 {
+		width: 20%;
+		padding-left: 1%;
+	}
+
+	.home {
+		padding-top: 170px;
+	}
+
+}
+
+@media screen and (max-width: 790px){
+	h1 {
+		font-size: 31px;
+	}
+	
+	h2 {
+		font-size: 21px;
+	}
+}
+
+@media screen and (max-width: 773px){	
+	h1 {
+		font-size: 27px;
+	}
+	
+	h2 {
+		font-size: 19px;
+	}
+	
+	.text {
+		font-size: 18px;
+	} 
+	
+	#filmSuggerito ul {
+		font-size: 16px;
+	}
+
+	#filmSuggerito h2 {
+		font-size: 20px;
+	}
+	
+	.biblio {
+		font-size: 18px;
+	}
+
+	#td1 {
+		width: 3%;
+		padding-left: 0%;
+	}
+	
+	.home {
+		padding-top: 200px;
+	}
+	
+	.testomenu {
+		font-size: 40px;
+	}
+	
+	.pulsante {
+		padding: 12px;
+		
+	}
+
+	.logoFilm {
+		width: 60%;
+	}
+	
+	#emozioni button {
+		width: 17%;
+	}
+}
+
+
+@media screen and (min-width: 50px) and (max-width: 750px){	
+	#table1 {
+		margin-top: 0;
+	}
+	
+	.imgEmozioni {
+		width: 105%;
+	}
+	
+	#x {
+		width: 14%;
+	}
+
+	.imgdx {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.imgsx {
+		float: none;
+		margin: 0 auto;
+	}
+	
+	.h2S {
+		margin-bottom: 5%;
+	}
+	
+	.bleft {
+		border-left: none;
+		padding-left: 0;
+	}
+
+	.bright {
+		border-right: none;
+		padding-right: 0;
+	}
+	
+	header {
+		height: 64px;
+	}
+
+	#bottoneHome {
+		font-size: 28px;
+		margin-top: -3px;
+		margin-left: 15px;
+	}
+		
+	#bottoneMenu {
+		margin-right: 15px;
+	}
+	
+	.home {
+		padding-top: 200px;
+		font-size: 12.9vw;
+	}
+	
+	#menuSito {
+		font-size: 9vw;
+	}
+	
+	#menuSito ul {
+		padding-top: 15%;
+		padding-left: 0;
+	}
+	
+	#chiudiM {
+		padding-top: 4%;
+		padding-right: 5%;
+	}
+	
+	.testomenu {
+		font-size: 28px;
+	}
+
+	.pulsante {
+		padding: 6px;
+		width: 80px;
+		
+		font-size: 17px;
+	} 
+	
+	#quattro img {
+		width: 100%;
+	}
+	
+	footer {
+		height: 64px;
+	}
+	
+	.pagina {
+		line-height: 1.6;
+		margin-top: 80px;
+	}
+	
+	h1 {
+		font-size: 28px;
+	}
+	
+	#filmSuggerito img {
+		width: 45%;
+	}
+	
+	h2 {
+		font-size: 22px;
+	}
+	
+	#filmSuggerito ul {
+		margin-left: 0;
+	}
+	
+	.imgS1 {
+		width: 60%;
+	}
+
+	.imgS2 {
+		width: 80%;
+	}
+
+	.imgS3 {
+		width: 55%;
+	}
+
+	.imgS4 {
+		width: 80%;
+	}
+
+	.attore {
+		width: 110px;
+		height: 80px;
+		margin-top: 0;
+	}
+	
+	.casella {
+		width: 110px;
+		height: 80px;
+		margin-top: -6px;
+		color: black;
+		background-color : white;
+	}
+	
+	#MammaMia {
+		background-image: url("mammamia2.jpg");
+	}
+	
+	#MenInBlack {
+		background-image: url("meninblack2.jpg");
+	}
+	
+	#PrettyWoman {
+		background-image: url("prettywoman2.jpg");
+	}
+	
+	#Neverland {
+		background-image: url("neverland2.jpg");
+	}
+	
+	#Titanic {
+		background-image: url("titanic2.jpg");
+	}
+	
+	.logoFilm {
+		visibility: hidden;
+	}
+	
+	#table1 td {
+		width: 50%
+	}
+	
+	.pRisultati {
+		font-size: 400%;
+	}
+}
+
+@media screen and (min-width: 50px) and (max-width: 750px)and (orientation: landscape) {	
+	.home {
+		padding-top: 15%;
+	}
+	
+	#menuSito {
+		font-size: 6vw;
+	}
+
+	#menuSito ul {
+		padding-top: 7%;
+	}
+}
